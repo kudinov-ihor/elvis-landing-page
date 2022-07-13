@@ -1,0 +1,29 @@
+.header {
+    &__nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+    &__link {
+        padding: 7px 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Bellefair';
+        font-weight: 400;
+        font-size: 17px;
+        color: #000000;
+    }
+    &__switcher {
+        width: 50px;
+        height: 50px;
+        background: #000;
+        border: none;
+        border-radius: 100%;
+    }
+    .container_flex {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+}   
