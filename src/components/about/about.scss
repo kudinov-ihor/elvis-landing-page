@@ -1,0 +1,55 @@
+.about {
+    padding-bottom: 55px;
+    &__shadow {
+        width: 59%;
+        height: 158px;
+
+        float: right;
+        background: linear-gradient(70.42deg, #FFFFFF 15.93%, rgba(0, 0, 0, 0) 115.05%);
+    }
+    &__title {
+        float: left;
+        font-family: 'Playfair Display';
+        max-width: 527px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 108.54px;
+        line-height: 145px;
+        text-transform: uppercase;
+        color: #000000;
+
+    }
+    &__descr {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 163.5%;
+        color: #000000;
+    }
+    &__button { 
+        margin: 30px 0;
+        width: 121.34px;
+        height: 121.34px;
+        border-radius: 100%;
+        border: none;
+        background: #C80003;
+        position: relative;
+        &::after {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            white-space: nowrap;
+            content: 'KNOW MORE';
+            font-family: 'Bellefair';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32.9399px;
+
+            color: #000000;
+        }
+    }
+    .container_flex {
+        position: relative;
+    }
+}
