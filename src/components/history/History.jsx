@@ -45,6 +45,18 @@ function History() {
                     <img
                     className="d-block w-100"
                     src={Photo}
+                    alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item >
+                    <img
+                    className="d-block w-100"
+                    src={Photo}
                     alt="Third slide"
                     />
 

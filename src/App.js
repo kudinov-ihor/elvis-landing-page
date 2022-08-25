@@ -10,6 +10,7 @@ import Header from './components/header/Header';
 import Promo from './components/promo/Promo';
 import About from './components/about/About';
 import History from './components/history/History';
+import Gallery from './components/gallery/Gallery';
 
 export const ThemeContext = createContext(null);
 
@@ -28,6 +29,7 @@ function App() {
         <Promo />
         <About />
         <History />
+        {/* <Gallery /> */}
       </div>
     </ThemeContext.Provider>
 

@@ -12,13 +12,51 @@
     &__photo {
         position: absolute;
         bottom: 0;
+        width: 100%;
 
     }
     .container_flex {
-        min-height: 771px;
+        padding-top: 150px;
         position: relative;
         display: flex;
         justify-content: center;
-        align-items:center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .promo {
+
+        &__title {
+            font-size: 340px;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .promo {
+        .container_flex {
+            padding-top: 100px;
+        }
+        &__title {
+            font-size: 265px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .promo {
+        &__title {
+            font-size: 185px;
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .promo {
+        
+        &__photo {
+            max-height: 100%;
+        }
+        &__title {
+            width: 100%;
+            font-size: 26vw;
+        }
     }
 }
