@@ -11,6 +11,8 @@ import Promo from './components/promo/Promo';
 import About from './components/about/About';
 import History from './components/history/History';
 import Gallery from './components/gallery/Gallery';
+import ListenHits from './components/listenHits/ListenHits';
+import Footer from './components/footer/Footer';
 
 export const ThemeContext = createContext(null);
 
@@ -29,7 +31,9 @@ function App() {
         <Promo />
         <About />
         <History />
-        {/* <Gallery /> */}
+        <Gallery />
+        <ListenHits />
+        <Footer />
       </div>
     </ThemeContext.Provider>
 

@@ -36,5 +36,49 @@
   .promo__title {
     color: #fff;
   }
+  .section {
+    &-header {
+      &__title {
+        color: #fff;
+        &::before {
+          background: #fff;
+        }
+        &::after {
+          background: #fff;
+        }
+      }
+    }
+  }
+  .footer {
+    .news {
+      &__title {
+        color: #fff;
+      }
+      &__descr {
+        color: #fff;
+      }
+      &__contact {
+        color: #fff;
+      }
+      &__mail {
+        color: #fff;
+      }
+      &__location {
+        color: #fff;
+      }
+      .form {
+        &__input {
+          border: 1px solid #fff;
+          background-color: #000;
+          color: #fff;
+        }
+        &__submit {
+          background-color: #272727;
+          border: 1px solid #fff;
+          color: #fff;
+        }
+      }
+    }
+  }
 }
 

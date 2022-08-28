@@ -1,35 +1,4 @@
 .history {
-    &-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        &__title {
-            padding: 25px 0;
-            font-family: 'Bellefair';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 71.5798px;
-            color: #000;
-            position: relative;
-            &::before {
-                content: '';
-                position: absolute;
-                width: 197px;
-                height: 1px;
-                background: #000;
-                top: 0;
-                left: 0;
-            }
-            &:after {
-                content: '';
-                position: absolute;
-                width: 730px;
-                bottom: 0;
-                left: 0;
-                height: 1px;
-                background: #000;
-            }
-        }
         &__hero {
             display: flex;
             margin-top: 90px;
@@ -68,43 +37,6 @@
                 padding: 7px 10px;
             }
         }
-        button {
-            width: 93px;
-            height: 93px;
-            border-radius: 100%;
-            background: none;
-            font-family: 'Bellefair';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22.1152px;
-            color: #000000;
+    }
 
-        }
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .history {
-        &-header {
-            &__title {
-                &::before {
-                    width: 50%;
-                }
-                &::after {
-                    width: 100%;
-                }
-            }
-        }
-    }
-    
-}
-@media screen and (max-width: 768px) {
-    .history {
-        &-header {
-            &__title {
-                font-size: 50px;
-            }
-        }
-    }
-    
-}

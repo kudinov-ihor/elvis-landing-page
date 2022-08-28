@@ -2,25 +2,22 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 import './history.scss';
-
+import SectionTitle from '../sectionTitle/SectionTitle';
 import Photo from '../../assets/images/history_gallery1.png';
 function History() {
   return (
     <section className='history'>
         <div className="container">
-            <div className="history-header">
-                <h2 className="history-header__title">Visit Graceland</h2>
-                <button>view all</button>
-            </div>
+            <SectionTitle title="Visit Graceland"/>
             <Carousel 
-                className='history-header__hero'
+                className='history__hero'
                 controls={false}
                 interval={1000}
                 fade
                 >
                 <Carousel.Item >
                     <img
-                    className="d-block w-80"
+                    className="d-block w-100"
                     src={Photo}
                     alt="First slide"
                     />

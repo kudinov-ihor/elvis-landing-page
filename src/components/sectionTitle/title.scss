@@ -1,0 +1,59 @@
+.section {
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            padding: 25px 0;
+            font-family: 'Bellefair';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 71.5798px;
+            color: #000;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 197px;
+                height: 1px;
+                background: #000;
+                top: 0;
+                left: 0;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 730px;
+                bottom: 0;
+                left: 0;
+                height: 1px;
+                background: #000;
+            }
+        }
+}
+}
+@media screen and (max-width: 992px) {
+    .section{
+        &-header {
+            &__title {
+                &::before {
+                    width: 50%;
+                }
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .section{
+        &-header {
+            &__title {
+                font-size: 50px;
+            }
+        }
+    }
+    
+}
