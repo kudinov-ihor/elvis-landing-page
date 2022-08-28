@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/elvis-landing-page/static/css/main.c0e0ac8b.css",
-    "main.js": "/elvis-landing-page/static/js/main.b2d1e508.js",
+    "main.css": "/elvis-landing-page/static/css/main.b4755366.css",
+    "main.js": "/elvis-landing-page/static/js/main.b10fdbb6.js",
     "static/js/787.7648fdcc.chunk.js": "/elvis-landing-page/static/js/787.7648fdcc.chunk.js",
     "static/media/history_gallery1.png": "/elvis-landing-page/static/media/history_gallery1.530dd6a430ec8b809015.png",
+    "static/media/GalleryPhoto1.png": "/elvis-landing-page/static/media/GalleryPhoto1.36c676434a4c4b96def7.png",
     "static/media/promo-hero.png": "/elvis-landing-page/static/media/promo-hero.9d6a6b258e4dbfd68384.png",
+    "static/media/HitsPhoto1.png": "/elvis-landing-page/static/media/HitsPhoto1.ee89bd0602d254f668c1.png",
+    "static/media/HitsPhoto2.png": "/elvis-landing-page/static/media/HitsPhoto2.6e8fabe056eaf1d3d382.png",
     "static/media/logo.svg": "/elvis-landing-page/static/media/logo.1e4eb68cdf2f1e05348c06f4ddcc7f84.svg",
     "static/media/header-dark.svg": "/elvis-landing-page/static/media/header-dark.467df450177c65b262331e5ac72985b7.svg",
     "static/media/header-light.svg": "/elvis-landing-page/static/media/header-light.23a73ef4a0640141b3afa62e702d4c3a.svg",
     "index.html": "/elvis-landing-page/index.html",
-    "main.c0e0ac8b.css.map": "/elvis-landing-page/static/css/main.c0e0ac8b.css.map",
-    "main.b2d1e508.js.map": "/elvis-landing-page/static/js/main.b2d1e508.js.map",
+    "main.b4755366.css.map": "/elvis-landing-page/static/css/main.b4755366.css.map",
+    "main.b10fdbb6.js.map": "/elvis-landing-page/static/js/main.b10fdbb6.js.map",
     "787.7648fdcc.chunk.js.map": "/elvis-landing-page/static/js/787.7648fdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e0ac8b.css",
-    "static/js/main.b2d1e508.js"
+    "static/css/main.b4755366.css",
+    "static/js/main.b10fdbb6.js"
   ]
 }
