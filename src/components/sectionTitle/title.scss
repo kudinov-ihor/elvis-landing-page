@@ -4,6 +4,7 @@
         justify-content: space-between;
         align-items: center;
         &__title {
+            overflow-x: visible;
             padding: 25px 0;
             font-family: 'Bellefair';
             font-style: normal;
