@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elvis-landing-page/static/css/main.b4755366.css",
-    "main.js": "/elvis-landing-page/static/js/main.cba62df3.js",
+    "main.css": "/elvis-landing-page/static/css/main.95bea17c.css",
+    "main.js": "/elvis-landing-page/static/js/main.5df601c8.js",
     "static/js/787.7648fdcc.chunk.js": "/elvis-landing-page/static/js/787.7648fdcc.chunk.js",
     "static/media/history_gallery1.png": "/elvis-landing-page/static/media/history_gallery1.530dd6a430ec8b809015.png",
     "static/media/GalleryPhoto1.png": "/elvis-landing-page/static/media/GalleryPhoto1.36c676434a4c4b96def7.png",
@@ -12,12 +12,12 @@
     "static/media/header-dark.svg": "/elvis-landing-page/static/media/header-dark.467df450177c65b262331e5ac72985b7.svg",
     "static/media/header-light.svg": "/elvis-landing-page/static/media/header-light.23a73ef4a0640141b3afa62e702d4c3a.svg",
     "index.html": "/elvis-landing-page/index.html",
-    "main.b4755366.css.map": "/elvis-landing-page/static/css/main.b4755366.css.map",
-    "main.cba62df3.js.map": "/elvis-landing-page/static/js/main.cba62df3.js.map",
+    "main.95bea17c.css.map": "/elvis-landing-page/static/css/main.95bea17c.css.map",
+    "main.5df601c8.js.map": "/elvis-landing-page/static/js/main.5df601c8.js.map",
     "787.7648fdcc.chunk.js.map": "/elvis-landing-page/static/js/787.7648fdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4755366.css",
-    "static/js/main.cba62df3.js"
+    "static/css/main.95bea17c.css",
+    "static/js/main.5df601c8.js"
   ]
 }
