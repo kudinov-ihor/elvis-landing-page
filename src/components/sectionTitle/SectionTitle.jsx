@@ -26,7 +26,7 @@ function SectionTitle({title}) {
           variants={titleAnimate}
           initial='offscreen'
           whileInView='onscreen'
-          viewport={{once: true, amount: 0.7}}
+          viewport={{once: false, amount: 0.6}}
         >
           {title}
         </motion.h2>

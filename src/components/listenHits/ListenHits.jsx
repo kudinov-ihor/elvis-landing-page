@@ -34,7 +34,7 @@ function ListenHits() {
                   variants={imagesAnimate}
                   initial='offscreen'
                   whileInView='onscreen'
-                  viewport={{once: true, amount: 0.5}} 
+                  viewport={{once: false, amount: 0.5}} 
                   src={HitsPhoto1}
                   alt="Spotify photo song"
                   className='hits-wrapper__photo'
@@ -43,7 +43,7 @@ function ListenHits() {
                   variants={imagesAnimate}
                   initial='offscreen'
                   whileInView='onscreen'
-                  viewport={{once: true, amount: 0.5}} 
+                  viewport={{once: false, amount: 0.5}} 
                   src={HitsPhoto2}
                   alt="Sporify music search" 
                   className='hits-wrapper__photo'

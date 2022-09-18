@@ -34,7 +34,7 @@ function Gallery() {
                 variants={sliderAnimate}
                 initial='offscreen'
                 whileInView='onscreen'
-                viewport={{once: true, amount: 1}} 
+                viewport={{once: false, amount: 0.3}} 
             >
           <Carousel 
             controls={false} 

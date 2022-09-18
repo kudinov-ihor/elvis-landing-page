@@ -64,3 +64,22 @@
     }
     
 }
+
+@media screen and (max-width: 578px) {
+    .about{
+        margin-top: 75px;
+        &__title {
+            font-size: 45px;
+            line-height: 60px;
+            float: none;
+        }
+        &__shadow{
+            display: none;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+    
+}
